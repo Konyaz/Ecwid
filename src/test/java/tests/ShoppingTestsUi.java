@@ -7,11 +7,11 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
-public class ShoppingTestsUi {
+public class ShoppingTestsUi extends TestBase {
 
 
     @Test
-    void addAnBuyUITest() {
+    void addAndBuyUITest() {
         step("Open site", () -> {
         open("https://buy-in-10-seconds.company.site/");
         });
