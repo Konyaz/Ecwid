@@ -1,3 +1,4 @@
+/*
 package tests;
 
 import com.codeborne.selenide.Configuration;
@@ -31,4 +32,5 @@ public class RestApi {
 
         }
 
-    }
+}
+*/
