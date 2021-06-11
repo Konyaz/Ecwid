@@ -28,7 +28,7 @@ public class TestBase {
 
         Configuration.pageLoadStrategy = "eager";
         Configuration.clickViaJs = true;
-        Configuration.fastSetValue = true;
+
 
         String remoteWebDriver = System.getProperty("remote.web.driver");
 
