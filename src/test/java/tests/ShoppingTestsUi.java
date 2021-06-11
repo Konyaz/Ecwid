@@ -30,8 +30,7 @@ public class ShoppingTestsUi extends TestBase {
             $("#ec-address-line1").sendKeys("Street");
             $("#ec-city-list").sendKeys("City");
             $("#ec-postal-code").sendKeys("191919");
-            $(".form-control__select").click();
-            $(byText("Ica")).click();
+
             $(".form-control__loader").click();
         });
         step("Verify successful buy", () -> {
