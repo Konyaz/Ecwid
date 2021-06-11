@@ -25,7 +25,7 @@ public class TestTwo extends TestBase {
             $x("//button[contains(.,'Корзина')]").click();
         });
         step("Registration form", () -> {
-            $("#ec-cart-email-input").setValue("two@1.ru");
+            $("#ec-cart-email-input").setValue("twotwo@1.ru");
             $("#form-control__checkbox--agree").click();
             $(".form-control__loader").click();
             $("#ec-country").click();
