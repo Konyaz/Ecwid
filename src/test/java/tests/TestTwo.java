@@ -34,7 +34,7 @@ public class TestTwo extends TestBase {
             $("#ec-address-line1").setValue("Street");
             $("#ec-city-list").setValue("City");
             $("#ec-postal-code").setValue("01067");
-            $(".form-control__select").click();
+            $(".form-control__loader").click();
 
         });
         step("Verify successful buy", () -> {
