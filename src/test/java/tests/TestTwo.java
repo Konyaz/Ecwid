@@ -29,11 +29,11 @@ public class TestTwo extends TestBase {
             $("#form-control__checkbox--agree").click();
             $(".form-control__loader").click();
             $("#ec-country").click();
-            $(byText("Перу")).click();
+
             $("#ec-full-name").setValue("Alex");
             $("#ec-address-line1").setValue("Street");
             $("#ec-city-list").setValue("City");
-            $("#ec-postal-code").setValue("191919");
+            $("#ec-postal-code").setValue("01067");
             $(".form-control__select").click();
 
         });
