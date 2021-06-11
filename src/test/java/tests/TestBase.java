@@ -26,6 +26,10 @@ public class TestBase {
 
         Configuration.browser = System.getProperty("web.browser", "chrome");
 
+        Configuration.pageLoadStrategy = "eager";
+        Configuration.clickViaJs = true;
+        Configuration.fastSetValue = true;
+
         String remoteWebDriver = System.getProperty("remote.web.driver");
 
         if (remoteWebDriver != null) {
