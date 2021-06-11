@@ -24,13 +24,10 @@ public class ShoppingTestsUi extends TestBase {
             $("#ec-cart-email-input").sendKeys("two@1.ru");
             $("#form-control__checkbox--agree").click();
             $(".form-control__loader").click();
-            $("#ec-country").click();
-            $(byText("Перу")).click();
             $("#ec-full-name").sendKeys("Alex");
             $("#ec-address-line1").sendKeys("Street");
             $("#ec-city-list").sendKeys("City");
-            $("#ec-postal-code").sendKeys("191919");
-
+            $("#ec-postal-code").sendKeys("01067");
             $(".form-control__loader").click();
         });
         step("Verify successful buy", () -> {
