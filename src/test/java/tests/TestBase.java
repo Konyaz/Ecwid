@@ -50,6 +50,7 @@ public class TestBase {
             System.out.println(String.format(remoteWebDriver, user, password));
         }
     }
+
     @AfterEach
     void afterEach() {
         attachScreenshot("Last screenshot");

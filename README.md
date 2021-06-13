@@ -2,7 +2,8 @@
 
 ## http://ecwid.to/QAutomiddle
 
-#### *Quick project example with infrastructure: Selenide UI tests with Allure report, remote run on Selenoid and push notifications to Telegram*
+#### *Quick project example with infrastructure: Selenide UI tests with Allure report, remote run on Selenoid and push
+notifications to Telegram*
 
 ### Technology Stack
 
@@ -18,25 +19,30 @@
 ![Telegram](images/icons/Telegram.png)
 
 ### Allure report
+
 ![Allure](images/Allure1.png)
 ![Allure](images/Allure2.png)
 ![Allure](images/Allure3.png)
 
-### Allure TestOps  Launches 
+### Allure TestOps  Launches
+
 ![TestOps launches](images/AllureTestOps.png)
 
 ### Video
+
 ![Video](images/Video.gif)
 
 ### Jenkins
+
 https://jenkins.autotests.cloud/job/Ecwid/
 ![Jenkins](images/Jenkins.png)
 
 ### Telegram
+
 ![Telegram](images/Telegram.png)
 
 ### How to run autotests
+
 To run autotests remotely pass the following parameters in driver.properties:
 
-remote.web.user= { your user name }
-remote.web.password= {your password }
+remote.web.user= { your user name } remote.web.password= {your password }
