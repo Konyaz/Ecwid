@@ -34,3 +34,9 @@ https://jenkins.autotests.cloud/job/Ecwid/
 
 ### Telegram
 ![Telegram](images/Telegram.png)
+
+### How to run autotests
+To run autotests remotely pass the following parameters in driver.properties:
+
+remote.web.user= { your user name }
+remote.web.password= {your password }
