@@ -29,7 +29,7 @@
 ![Video](images/Video.gif)
 
 ### Jenkins
-https://jenkins.autotests.cloud/job/ITtest/
+https://jenkins.autotests.cloud/job/Ecwid/
 ![Jenkins](images/Jenkins.png)
 
 ### Telegram
