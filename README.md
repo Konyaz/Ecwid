@@ -2,6 +2,8 @@
 
 ## http://ecwid.to/QAutomiddle
 
+## Test duration 6,442
+
 #### *Quick project example with infrastructure: Selenide UI tests with Allure report, remote run on Selenoid and push
 notifications to Telegram*
 
